@@ -4,18 +4,7 @@
     --accent:       #F6AD55;
 }
 
-@font-face {
-    font-family: kawara;
-    src: url("../fonts/KawaraPersonalUse-x3l25.otf");
-}
-
-@font-face {
-    font-family: "the_last_shuriken";
-    src: url("../fonts/the-last-shuriken.regular.otf");
-}
-
 body {
-    background-image: url("../media/images/splash.webp");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
