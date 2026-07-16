@@ -1,0 +1,65 @@
+:root {
+    --text:         #ffffff;
+    --buttons:      #D32F2F;
+    --accent:       #F6AD55;
+}
+
+@font-face {
+    font-family: kawara;
+    src: url("../fonts/KawaraPersonalUse-x3l25.otf");
+}
+
+@font-face {
+    font-family: "the_last_shuriken";
+    src: url("../fonts/the-last-shuriken.regular.otf");
+}
+
+body {
+    background-image: url("../media/images/splash.webp");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-transform: capitalize;
+    font-family: "the_last_shuriken", serif, sans-serif;
+    color: var(--text);
+}
+
+
+h1 {
+    font-family: kawara, serif, sans-serif;
+    font-size: 15rem;
+    margin-top: 10rem;
+    margin-bottom: auto;
+    text-shadow: 0 0 1rem var(--text);
+}
+
+p {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+a {
+    align-self: center;
+    display: inline-block;
+    border: solid 0.1rem var(--accent);
+    margin-bottom: auto;
+    font-size: 4rem;
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: var(--accent);
+    background-color: var(--buttons);
+}
+
+/* Subtle hover animation for the button */
+a:hover {
+    background-color: var(--accent);
+    color: var(--buttons);
+    border-color: var(--buttons);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
